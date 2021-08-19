@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flex-box</title>
+
+  <style>
+    .flex {
+      display: flex;
+      justify-content: flex-end;
+
+      /*justify-content: flex-end;         | mexe no eixo vertical
+      justify-content: flex-start;         | deixa da forma como a gente inicia nosso flex
+      justify-content: center;             | centraliza nosso flex 
+      justify-content: space-evenly;       | deixa o flex com espaçamentos iguais
+      justify-content: space-around;       | espaçamentos iguais, espaçamentos iguais dentro dos quadrados também 
+      justify-content: space-between;      | ele não deixa espaços dos lados, mas ele deixa espaços entre e dentro dos quadrados*/
+
+
+    }
+
+    .flex .item {
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="flex">
+    <!--div.item{$}*8-->
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+
+  </main>
+
+</body>
+
+</html>

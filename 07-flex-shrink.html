@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flex-box</title>
+
+  <style>
+    .flex {
+      display: flex;
+
+    }
+
+    .flex .item:nth-of-type(3) {
+      background-color: rgb(225, 97, 97);
+      flex-shrink: 5;
+    }
+
+    /*flex-shrink: | controla o tamanho, deixando o item menor*/
+
+    .flex .item:nth-of-type(6) {
+      background-color: rgb(191, 77, 79);
+      flex-shrink: 5;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="flex">
+    <!--div.item{$}*12-->
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+
+  </main>
+
+</body>
+
+</html>

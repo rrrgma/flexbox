@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(223, 192, 199);
+}
+
+.flex {
+  padding: 5px;
+  min-width: 800px;
+  min-height: 675px;
+
+  background: url('.//eixo.png') no-repeat center;
+  background-color: #fff;
+  border: 10px solid rgb(221, 110, 162);
+}
+
+.item {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+
+  width: 100px;
+  background: rgb(202, 115, 141);
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  color: #fff;
+
+}
